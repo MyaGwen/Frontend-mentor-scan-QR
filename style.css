@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: hsl(212, 45%, 89%);
+    padding: 0 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.real-deal {
+    text-align: center;
+    line-height: 20px;
+    width: 80%;
+    max-width: 241px;
+    padding: 15px;
+    background-color: #fff;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .1);
+}
+
+.real-deal img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.real-deal h3 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.real-deal p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+} */
+
+/* .attribution a {
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+} */
+
+
+@media (min-width: 600px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+        width: 80%;
+        margin: 5em auto;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, .1);
+    }
+
+    .real-deal {
+        width: 39%;
+        max-width: 241px;
+        margin: 5em auto;
+    }
+}
